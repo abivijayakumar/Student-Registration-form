@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<form>
+<table>
+<center>
+<h1>Registration form</h1>
+</center>
+<tr>
+<td>Name:</td> <td> <input type="text"placeholder="Name"></td>
+</tr>
+<tr>
+<td>Phone number:</td> <td> <input type="number"placeholder="number"></td>
+</tr>
+<tr>
+<td>Email Id:</td> <td> <input type="email"placeholder="email"></td>
+</tr>
+<tr>
+<td>Password:</td> <td> <input type="password"placeholder="password"></td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td><input type="radio"name="Gender">Male
+<td><input type="radio"name="Gender">Female
+</td>
+</tr>
+<tr>
+<td>Date of birth:</td> <td><input type="month"placeholder="month"></td>
+</tr>
+<tr>
+<td>Education Qualification:</td>
+<td>
+<select>
+<option>Diploma</option>
+<option>UG</option>
+<option>PG</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Hobbies:</td>
+<td><input type="checkbox"name="Hobbies">Singing
+<td><input type="checkbox"name="Hobbies">Dancing
+<td><input type="checkbox"name="Hobbies">Playing
+</td>
+</tr>
+<tr>
+<td>Address:</td> <td><input type="text"placeholder="Address"></td>
+</tr>
+<tr>
+<td><input type="submit"></td>
+<td><input type="reset"></td>
+</tr>
+</table>
+</form>
+</html>
